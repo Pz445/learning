@@ -1,0 +1,13 @@
+#completeWrapper {
+  margin-top: 20px;
+  /* background: pink; */
+  padding: 1em;
+}
+
+body {
+  /* background: green; */
+}
+
+#completeWrapper > h2, h3, p {
+  margin: 0 0 0 0;
+}
