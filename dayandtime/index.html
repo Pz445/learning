@@ -2,16 +2,36 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Challenge: Day and Time</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <h2>Day and Time Challenge</h2>
-    <p><strong>Objective:</strong> Write a JavaScript program to display the current day and time</p>
-    <div id="show">
-      <button type="button" name="button" id="clicky">Click for Current Day and Time</button>
-      <h3>Today is <span id="dayName"></span></h3>
-      <h3>The current time is <span id="time"></span></h3>
+    <!-- Navbar -->
+    <div class="ui inverted pointing menu">
+      <div class="header item">
+        Pat P's Learning Pages
+      </div>
+      <div class="right menu">
+        <a class="item" href="http://patrickperkins.net/learning/">
+          Learning Home
+        </a>
+        <a class="item active">
+          Day and Time Challenge
+        </a>
+      </div>
     </div>
+
+    <div class="ui container completeWrapper">
+      <h2 class="ui header">Day and Time Challenge</h2>
+      <p><strong>Objective:</strong> Write a JavaScript program to display the current day and time</p>
+      <div id="show">
+        <button class="ui button" type="button" name="button" id="clicky">Click for Current Day and Time</button>
+        <h3>Today is <span id="dayName"></span></h3>
+        <h3>The current time is <span id="time"></span></h3>
+      </div>
+    </div>
+
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="dayAndTime.js"></script>

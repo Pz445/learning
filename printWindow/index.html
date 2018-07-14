@@ -2,13 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Challenge: Print Window</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <h2>Print Window Challenge</h2>
+    <!-- Navbar -->
+    <div class="ui inverted pointing menu">
+      <div class="header item">
+        Pat P's Learning Pages
+      </div>
+      <div class="right menu">
+        <a class="item" href="http://patrickperkins.net/learning/">
+          Learning Home
+        </a>
+        <a class="item active">
+          Print Window Challenge
+        </a>
+      </div>
+    </div>
+
+    <div class="ui container completeWrapper" id="completeWrapper">
+    <h2 class="ui header">Print Window Challenge</h2>
     <p><strong>Objective:</strong> Write a JavaScript program to print the contents of the current window</p>
     <div id="show">
-      <button type="button" name="button" id="clicky">Click in order to print this window</button>
+      <button type="button" class="ui button" name="button" id="clicky">Click in order to print this window</button>
+      <hr>
       <p>If you really want to print the window, here is a picture of a monkey instead of a blank screen</p>
       <p style="font-family: monospace; color: red;">
         <pre>
@@ -38,7 +57,7 @@
                               /_///
               </pre>
       </p>
-    </div>
+  </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="printWindow.js"></script>

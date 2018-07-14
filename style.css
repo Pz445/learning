@@ -1,13 +1,22 @@
-#completeWrapper {
+.completeWrapper {
   margin-top: 20px;
-  /* background: pink; */
+  background: antiquewhite;
   padding: 1em;
+  border-radius: 15px;
 }
 
 body {
-  /* background: green; */
+  background: #7398AD;
 }
 
-#completeWrapper > h2, h3, p {
-  margin: 0 0 0 0;
+.ui.button {
+  background-color: #D7EDFA;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 8px #7398AD;
+}
+
+.ui.button:hover {
+  color: snow;
+  background-color: #7398AD;
+  box-shadow: 2px 2px 8px #D7EDFA;
 }
