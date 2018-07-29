@@ -20,3 +20,7 @@ body {
   background-color: #7398AD;
   box-shadow: 2px 2px 8px #D7EDFA;
 }
+
+.hidden {
+  display: none;
+}
