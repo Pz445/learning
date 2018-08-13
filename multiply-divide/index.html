@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge: Multiply or Divide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="ui inverted pointing menu">
+      <div class="header item">
+        Pat P's Learning Pages
+      </div>
+      <div class="right menu">
+        <a class="item" href="http://patrickperkins.net/learning/">
+          Learning Home
+        </a>
+        <a class="item active">
+          Multiply or Divide
+        </a>
+      </div>
+    </div>
+
+    <div class="ui container completeWrapper">
+      <h2 class="ui header">Multiply or Divide Challenge</h2>
+      <p><strong>Objective:</strong>Write a JavaScript program to calculate multiplication and division of two numbers (input from user)</p>
+      <div id="show">
+        <form class="" action="index.html" method="post" id="multiplyDivideForm">
+          <label for="num1">Number 1</label>
+          <input type="number" name="num1" value="0" id="num1">
+          <label for="num2">Number 2</label>
+          <input type="number" name="num2" value="0" id="num2">
+          <button class="ui button" type="button" name="button" id="multiply">Multiply</button>
+          <button class="ui button" type="button" name="button" id="divide">Divide Number 1 by Number 2</button>
+        </form>
+        <h3 class="hidden" id="answer"><span id="answerText"></span></h3>
+      </div>
+    </div>
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="multiplyDivide.js"></script>
+  </body>
+</html>
